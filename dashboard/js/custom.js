@@ -37,3 +37,7 @@ $('.tab').on('click', function (e) {
     $(this).focus();
 });
 
+
+$(".mobilebars").click(function(){
+	$("#sidebar-collapse").toggleClass("show");
+  });
